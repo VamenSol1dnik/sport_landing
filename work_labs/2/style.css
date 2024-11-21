@@ -1,0 +1,185 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image:url('./img/headerback.png');
+    background-color: #0072c6e0
+}
+
+ul,li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+h2{
+    margin-left: 13px;
+    text-decoration: underline;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 8px;
+
+}
+
+.navbar a{
+    background-color: black;
+    color: white;
+}
+
+.navigation-menu{
+    margin-top: -23px;
+    display: flex;
+    justify-items: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rating {
+    border-left: 3px solid #dca70b;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.empty {
+    width: 329px;
+    height: 18.4px;
+    background-color: black;
+
+}
+
+.news {
+    flex: 1;
+    margin: 12px;
+    border-left: 3px solid #0b0bdc;
+    border-bottom: 3px solid #0b0bdc;
+    max-width: 800px;
+}
+.news-items{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    gap: 20px;
+    max-height: 200px; /* Висота для "гумовості" */
+    overflow: hidden; /* Ховає надлишковий контент */
+    transition: max-height 0.3s ease;
+}
+
+.news-item {
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    margin: 0;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: #4b0082;
+    font-weight: bold;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+.news-image {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    flex-shrink: 0;
+}
+
+.sidebar {
+    background-image:url('./img/aside1.png');
+}
+
+.sidebar, .sponsors {
+    width: 250px;
+    padding: 15px;
+}
+
+.more-btn {
+    display: block;
+    margin: 20px;
+    padding: 4px 13px;
+    font-size: 16px;
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.more-btn:hover {
+    background-color: #800080;
+}
+
+
+.games-section {
+    display: flex;
+
+    max-width: 800px;
+    margin: 13px;
+    padding: 15px;
+    border: 1px solid #ff0000;
+}
+
+.games-section h3 {
+    color: #cc0000;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.redline {
+    margin: 2px;
+    width: 1px;
+    height: 150px;
+    background-color: #cc0000;
+}
+.games-section ul {
+    list-style: none;
+}
+
+.games-section li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #0b0bdc;
+    border-right: 3px solid #0b0bdc;
+    border-top: 3px solid #0b0bdc;
+    border-bottom: 3px solid #0b0bdc;
+}
+
+.sidebar ul, .sponsors ul {
+    list-style: none;
+    color: rgb(70, 70, 70);
+}
+
+.sidebar li, .sponsors li {
+    margin-bottom: 10px;
+}
+
+.sponsors li {
+    padding: 13px;
+}
+
+.under{
+    display: flex;
+    justify-content: space-between;
+}
+.rights, .details{
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog [
+  <!ELEMENT catalog (product+)>
+  <!ELEMENT product (name, category, price, serialNumber, year, image+, parameters)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT category (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT serialNumber (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT image (#PCDATA)>
+  <!ELEMENT parameters (parameter+)>
+  <!ELEMENT parameter (#PCDATA)>
+]>
+<catalog>
+  <product>
+    <name>Samsung Galaxy S21</name>
+    <category>Smartphone</category>
+    <price>999.99</price>
+    <serialNumber>SMG123456789</serialNumber>
+    <year>2021</year>
+    <image>galaxy_s21.jpg</image>
+    <image>galaxy_s21_2.jpg</image>
+    <parameters>
+      <parameter>8GB RAM</parameter>
+      <parameter>128GB Storage</parameter>
+      <parameter>Exynos 2100</parameter>
+    </parameters>
+  </product>
+  <product>
+    <name>MacBook Pro 16</name>
+    <category>Laptop</category>
+    <price>2499.99</price>
+    <serialNumber>MBP123456789</serialNumber>
+    <year>2020</year>
+    <image>macbook_pro_16.jpg</image>
+    <parameters>
+      <parameter>16GB RAM</parameter>
+      <parameter>512GB SSD</parameter>
+      <parameter>Intel Core i9</parameter>
+    </parameters>
+  </product>
+  
+</catalog>
